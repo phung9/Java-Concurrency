@@ -18,5 +18,3 @@ public class Ex5_17_Memoizer2<A, V> implements Computable<A, V> {
 		return result;
 	}
 }
-
-interface Computable<A,V> { V compute(A arg) throws InterruptedException; }
